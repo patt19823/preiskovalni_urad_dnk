@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dnk solution</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <style>
+        .center {
+        text-align: center;
+        }
+
+        .input-center{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+        <div class="center">
+            <div class="row" id="">
+                <div class="col-lg-12">
+                    <div class="page-header">
+                        <h1>Nacionalni preiskovalni urad!</h1>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h3> Barva las je: {{ barva_las }} </h3>
+                    <h3> Oblika obraza je: {{ oblika_obraza }} </h3>
+                    <h3> Barva oči: {{ barva_oci }} </h3>
+                    <h3> Spol je: {{ spol }} </h3>
+                    <h3> Rasa je: {{ rasa }} </h3>
+                </div>
+
+                <a href="/" class="btn btn-success" type="submit" name="submit">Preveri naslednji dnk</a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
